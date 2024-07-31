@@ -48,7 +48,6 @@ Ensure you have the following Python packages installed: `diffusers`, `transform
 - Modify the text prompt to generate different images.
 - The generated image will be saved in the current working directory.
 
-Enjoy generating images with Stable Diffusion XL!
 
 
 
