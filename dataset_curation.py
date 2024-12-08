@@ -6,7 +6,7 @@ from PIL import Image
 from io import BytesIO
 
 # Initialize OpenAI client with your API key
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='YOUR_OPENAI_API_KEY')
 def generate_text_from_images(image_urls, start_number, text_folder_path, image_folder_path):
     # Create directories if they don't exist
     if not os.path.exists(text_folder_path):
